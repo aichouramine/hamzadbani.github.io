@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="icon" type="ima/png" href="./image/logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <title>Stay in media</title>
+</head>
+<body>
+    <!-- Messenger Plugin de discussion Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de discussion code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "105974275140461");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <header>
+        <nav class="main-nav">
+          <ul class="navlinks">
+            <li><a href="#contact_form" class="contact">Contactez-nous</a></li>
+          </ul>
+        </nav>
+    </header>
+   
+    <section class="baniere" id="baniere">
+       <div class="logo">
+            <img src="./image/logostayinmedia.png" alt="">
+        </div>
+
+        <div class="baniere-text">
+           <h1>Stay in media</h1>
+            <p>Our job is to increase........your sales</p>
+            <span>مهمتنا...........زيادة مبيعاتك</span>
+        </div>
+        <div class="baniere_btn">
+            <a href="#contact_form"> <span></span> Démarrer</a>
+        </div>
+    </section>
+
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#baniere">Accueil</a></li>
+                <li><a href="#mission">Notre Mission</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#temoignage">Temoignage</a></li>
+                <li><a href="#review">Notre équipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="btn-menu">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+    </div>
+
+    <section class="mission" id="mission">
+        <div class="titre-text">
+            <p>MISSION</p>
+            <h1>Qui sommes-nous ?</h1>
+        </div>
+        <div class="mission_boite">
+            <div class="missions">
+                <h1>Notre agence</h1>
+                <div class="description">
+                    <!--<div class="mission_icon">
+                        <i class="fas fa-info"></i>
+                    </div>-->
+                    <div class="mission-text">
+                            <p>Nous sommes une agence digitale basée à Temara depuis 2020 , Spécialisée dans le web Marketing et la communication digitale , 
+                                <span style="font: small-caps bold 1.2rem sans-serif;">STAY IN MEDIA</span> est une agence digitale alliant conseil, créativité et expertise technique .
+                            </p>  
+                    </div>
+                </div>
+                <div class="description">
+                    <div class="mission-text">
+                        <p>Notre équipe est composée de professionnels en stratégie marketing digital , communication digitale, web designers, graphistes et développeurs web, 
+                            nous savons transformer les opportunités digital en véritables opérations de création de business.</p>
+                    </div>
+                </div>
+            </div>
+            <!--pour définir la photo-->
+            <div class="im-mission">
+            </div>
+        </div>
+    </section>
+    <section class="service" id="service">
+        <div class="titre-text-white">
+            <p>SERVICE</p>
+            <h1>Plus Que la qualité</h1>
+        </div>
+        <div class="service_boite">
+            <div class="service_unique">
+                <img src="./image/marketing.jpg" alt="">
+                <div class="text_sur">
+                    <div class="descrip">
+                        <h3>WEB MARKETING</h3>
+                        <hr>
+                        <p>Notre agence digitale développera pour vous une stratégie e-marketing personnalisée afin de garantir une bonne expérience utilisateur à vos clients. STAY IN MEDIA assure la présence de votre marque sur les réseaux sociaux en respectant les principes de l'art du community management en diffusant des contenus de qualité et originaux et en instaurant un dialogue avec vos clients et prospects.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service_unique">
+                <img src="./image/publicite.jpg" alt="">
+                <div class="text_sur">
+                    <div class="descrip">
+                        <h3>PUBLICITÉ EN LIGNE</h3>
+                        <hr>
+                        <p>STAY IN MEDIA s’occupe du ciblage en ligne qui vous
+                            permettent de diffuser un message à peu de frais à l’intention d’un segment
+                            bien précis du marché. Il s’agit en outre d’un savant mélange de précision,
+                            en vue de rejoindre un public bien ciblé, et de portée, en vue de toucher
+                            un segment plus large du marché.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service_unique">
+                <img src="./image/photographie.jpg" alt="">
+                <div class="text_sur">
+                    <div class="descrip">
+                        <h3>PHOTOGRAPHIE ET VIDÉOGRAPHIE</h3>
+                        <hr>
+                        <p>Besoin d'un film institutionnel ? Des photos professionnels de votre marque ?   Réalisation pour votre propre communication interne ? Nous nous  adaptons à tous vos objectifs. Notre agence web peut transformer votre contenu en une expérience unique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service_unique">
+                <img src="./image/web.jpg" alt="">
+                <div class="text_sur">
+                    <div class="descrip">
+                        <h3>CRÉATION DE SITES WEB</h3>
+                        <hr>
+                        <p>Notre agent web vous permettra de bénéficier des avantages et des atouts de nos prestations, et rendra votre expérience plus agréable en prenant en charge tout le volet technique telles que la réservation de votre hébergement web et votre nom de domaine,
+                            ainsi que la création de votre messagerie professionnelle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="temoignge" id="temoignage">
+        <div class="titre-text">
+            <p>TEMOIGNAGE</p>
+            <h1>Que Disent nos clients?</h1>
+        </div>
+        <div class="temoignagee-boite">
+            <div class="temoignage-simple">
+                <div class="utilisateur">
+                    <img src="./image/boss.png" alt="">
+                    <div class="info_util">
+                        <h4>KAMAL AKESBI</h4>
+                        <!--<small>@hamzadbani</small>
+                        <div class="reseux_uti">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>-->
+                    </div>
+                </div>
+                <p>"Des délais et un travail rapide. Patience ,Patience infinie. Pas de raccourcis. Même si le client est négligent"<br><br></p>
+            </div>
+            <div class="temoignage-simple">
+                <div class="utilisateur">
+                    <img src="./image/boss.png" alt="">
+                    <div class="info_util">
+                        <h4>IBRAHIM KHALI</h4>
+                    </div>
+                </div>
+                <p>"Communication très bien pensée et articulé"<br><br></p>
+            </div>
+            <div class="temoignage-simple">
+                <div class="utilisateur">
+                    <img src="./image/boss.png" alt="">
+                    <div class="info_util">
+                        <h4>MOHAMMED MOBARIK</h4>
+                    </div>
+                </div>
+                <p>"La communication avec l'équipe m'a aidé à trouver exactement ce que je cherchais, rien à dire à part que leur service est rapide et de qualité"</p>
+            </div>
+        </div>
+    </section>
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <div class="titre-text">
+        <p>NOTRE ÉQUIPE</p>
+        <h1></h1>
+    </div>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/dbanihamza.jpg" alt="">
+                    <h2>HAMZA DBANI</h2>
+                    <p>Full stack web developer <br>
+                        “ Self-belief and hard work will always earn you success ” <br><br></p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/abdjlil.jpeg" alt="">
+                    <h2>ABDELJALIL KADIRI </h2>
+                    <p>Responsable de service communication web <br>
+                        Fondateur <br>
+                        “ Credibility is everything ”</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/mohammed.jpeg" alt="">
+                    <h2>MOHAMMED OUSALEH</h2>
+                    <p>Responsable web marketing <br>
+                        Fondateur <br>
+                        “ HARD WORK ALWAYS PAYS OFF ”<br><br></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+    <section class="contact_form" id="contact_form">
+        <div class="titre-text-white">
+            <p>CONTACTEZ-NOUS</p>
+        </div>
+        <form action="mail.php" method="post">
+        <div class="container" >
+            <div class="contact-box">
+                <div class="left">
+                    <iframe class="left" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13244.382233231083!2d-6.929887498657631!3d33.91294009845058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sT%C3%A9mara%20stay%20in%20media!5e0!3m2!1sfr!2sma!4v1632949007884!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="right">
+                    <h2>Contactez-nous</h2>
+                    <input type="text" class="field" name="nom" id="nom" placeholder="Nom">
+                    <input type="text" class="field" name="email" id="email" placeholder="Email">
+                    <input type="text" class="field" name="tel" id="tel" placeholder="Téléphone">
+                    <textarea placeholder="Message" name="message" id="message" class="field"></textarea>
+                    <button class="btn" id="soumettre">Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    </section>
+
+    <section class="Contact" id="contact">
+        <img src="./image/LOGOStay.png" alt="" class="img-footer">
+        <div class="titre-text">
+            <p>RENDEZ-VOUS</p>
+            <h1>Prendre un rendez-vous</h1>
+        </div>
+        <div class="outer" id="boxes">
+        <div class="pied-g" id="column1">
+            <h1>Nous contactez</h1>
+            <br>
+            <label for="">Address</label>
+            <br>
+            <p>n 69, Lot khiam 3, Temara 12000, maroc</p>
+            <br>
+            <label for="">Email</label>
+            <br>
+            <p>Contact@stayinmedia.net</p>
+            <br>
+            <label for="">Téléphone</label>
+            <br>
+            <p>+212 610-705292/+212 669-817901</p>
+            <br>
+            <label for="">Whatsapp business</label>
+            <br>
+            <p>+212701185724</p>
+        </div>
+            <div class="pied-d" id="column3">
+            <h1>Heures d'Ouverture</h1>
+            <p><i class="far fa-clock"></i>Lundi au Samedi - 8h a 18h</p>
+            </div>
+    </div>
+       <!-- <div class="pied-page">
+            <div class="pied-d">
+                <h1>Heures d'Ouverture</h1>
+                <p><i class="far fa-clock"></i>Lundi au Samedi - 8h a 18h</p>
+            </div>
+        </div>-->
+        <div class="reseaux-sociaux">
+            <a href="https://www.facebook.com/STAYINMEDIAGENCY/"><i class="fab fa-facebook-f"></i></a>
+            <a href=" https://twitter.com/stay_in_media"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/stayinmedia/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.pinterest.com/stayinmedia2021/_saved/"><i class="fab fa-pinterest"></i></a>
+            <a href="https://www.tiktok.com/@stayinmedia"><i class="fab fa-tiktok"></i></a>
+            <a href="https://instagram.com/stayin_media?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+            <p>Copyright 2021 - Stayinmedia by HD</p>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./script.js"></script>
+    <script>
+        // cacher l'icon items
+        document.querySelector('.fa-times').style.display ="none"
+
+        const menuBtn = document.querySelector(".btn-menu")
+        const Sibebar = document.querySelector(".sidebar")
+
+        menuBtn.onclick = function(){
+            if(Sibebar.style.left == "-250px"){  // si l'icon est bars
+                Sibebar.style.left = "0"  //afficher le menu
+                document.querySelector('.fa-times').style.display ="" //afficher l'icon times
+                document.querySelector('.fa-bars').style.display ="none" //cacher l'icon bars
+
+            }else{
+                Sibebar.style.left = "-250px" // cacher le menu
+                document.querySelector('.fa-times').style.display ="none" //cacher l'icon times
+                document.querySelector('.fa-bars').style.display ="" //afficher l'icon bars
+            }
+        }
+    </script>
+    <script>
+        
+        document.querySelector('#soumettre').onclick = function(){
+          var nom = document.querySelector('#nom').value,
+          email = document.querySelector('#email').value,
+          tel = document.querySelector('#tel').value,
+          message = document.querySelector('#message').value
+
+         if(nom=="" || email=="" || tel=="" || message==""){
+             alert("vérifier que vous avez bien remplis tous les champs !");
+             return false;
+         }
+         else return true;
+      }
+    </script>
+</body>
+</html>
